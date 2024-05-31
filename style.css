@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@font-face{
+   font-family: myFont;
+   src:url(mus/Fonts/MuseoSans_500.otf);
+
+}
+body{
+    text-align:center;
+    border:1px solid rgba(0, 0, 0, 0.11);
+   
+    width:500px;
+    margin:auto;
+    margin-top:0;
+    border-radius: 30px;
+    background-image: url("backs.jpg");
+   
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.post{
+   background-color: white;
+   border-radius: 20px;
+}
+ h1{
+    padding:10px;
+    font-family:myFont;
+    
+ }
+ .one label {
+    display:block;
+    margin:10px;
+    padding-left:0;
+    cursor: pointer;
+   
+ }
+.two label{
+    display:block;
+    margin:9px;
+    text-align:left;
+    padding-left: 0;
+    cursor: pointer;
+}
+ .one input {
+    padding:14px;
+    padding-left:20px;
+    font-size:15px;
+    line-height:10px;
+    border:1px solid rgba(0, 0, 0, 0.11);
+   
+    border-radius:20px;
+ }
+ .two input {
+    padding:14px;
+    padding-left:22px;
+    font-size:15px;
+    
+
+    
+    border:1px solid rgba(0, 0, 0, 0.11);
+   
+  border-radius:20px;
+ }
+ .three{
+    margin-top:10px;
+    cursor: pointer;
+    text-align:left;
+    padding-left:140px;
+ }
+ .four{
+   display:inline-block;
+   padding:5px;
+   padding-left: 102px;
+   padding-right: 102px;
+   padding-top: 10px;
+   border:1px solid rgba(0, 0, 0, 0.11);
+   margin-top:8px;
+   
+   border-radius:20px;
+   color:white;
+   font-family:serif;
+   background-color: rgb(231, 34, 34);
+   cursor:pointer;
+
+ }
+ .five{
+text-transform:uppercase;
+font-size:0.8rem;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+padding-top:8px;
+padding-bottom:8px;
+cursor: pointer;
+ }
+ .six{
+   display:inline-block;
+   padding:5px;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom:10px;
+   border:1px solid rgba(0, 0, 0, 0.11);
+   margin-top:8px;
+   border-radius:20px;
+   color:white;
+   font-family:serif;
+   background-color: rgb(15, 113, 204);
+   cursor: pointer;
+ }
+ .seven{
+   display:inline-block;
+   padding:5px;
+   padding-left: 59px;
+   padding-right: 59px;
+   padding-bottom:10px;
+   border:1px solid rgba(0, 0, 0, 0.178);
+   
+   
+   margin-top:8px;
+   border-radius:20px;
+   color:black;
+   font-family:serif;
+   background-color:white;
+   cursor: pointer;
+ }
+ .eight .ei{
+   font-size:small;
+   color:rgba(163, 151, 151, 0.63);
+   margin-top:10px;
+
+ }
+ .eight{
+   font-size:small;
+ }
+ .nine{
+  color :rgba(163, 151, 151, 0.63);
+}
+.nine .b{
+   color:black;
+}
+ 
+.ni{
+   color:rgba(163, 151, 151, 0.74);
+}
+.ten{
+   color:black;
+}
+.ele{
+   margin-top:19px;
+   margin-bottom:10px;
+
+
+}
+.seven{
+   position:relative;
+}
+.seven img{
+   position:absolute;
+   left:10px;
+}
+.six{
+   position:relative;
+}
+.six .prem{
+   position:absolute;
+   left:10px;
+}
+
+
+
+
+.four:hover{
+   background-color:rgb(168, 13, 13);
+}
+.one label{
+   padding-left:140px;
+   text-align:left;
+}
+.two label{
+   padding-left:140px;
+   text-align:left;
+}
+.one input:focus{
+   border-color: rgb(12, 158, 226);
+   outline:5px solid rgb(12, 158, 226);
+
+}
+.two input:focus{
+   border-color: rgb(12, 158, 226);
+   outline:5px solid rgb(12, 158, 226);
+
+
+}
+.b:hover{
+   text-decoration:underline;
+   cursor:pointer;
+}
+
+.seven:hover{
+   background-color: rgba(255, 255, 255, 0.199);
+}
+.twelve{
+   margin-top:13px;
+   padding-bottom:16px;
+   line-height:2px;
+   margin-bottom:0;
+
+}
+.img{
+   padding-top:15px;
+}
+.ele{
+   cursor:pointer;
+
+}
+.tw{
+   cursor:pointer;
+   font-size:smaller;
+}
+.img{
+   padding-top: 15px;
+}
+@media screen and (max-width:600px) {
+  .post{
+margin-top:6rem;
+margin-bottom:0;
+width:500px;
+
+
+
+
+
+background-color:white;
+  }
+ /*  .one label{
+   text-align:left;
+   padding-left:60px;
+  }
+  .two label{
+   text-align:left;
+   padding-left:50px;
+  }
+  .three{
+   text-align:left;
+   padding-left:30px;
+  }
+  */
+  
+  body{
+   background-image: none;
+   margin-top:6rem;
+   background-color:#FFFF80;
+   border:none;
+  }
+  }
